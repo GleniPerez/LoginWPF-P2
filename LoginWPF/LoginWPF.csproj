@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="agregar.png" />
+    <None Remove="ayuda.png" />
+    <None Remove="editar.png" />
+    <None Remove="estadistica.png" />
+    <None Remove="hombre.png" />
+    <None Remove="mujer.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="agregar.png" />
+    <Resource Include="ayuda.png" />
+    <Resource Include="editar.png" />
+    <Resource Include="estadistica.png" />
+    <Resource Include="hombre.png" />
+    <Resource Include="mujer.png" />
+  </ItemGroup>
+
+</Project>
